@@ -78,6 +78,7 @@
 		70B23F8D1FCE83C2004E2AC0 /* BLIRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4B1FCE83C1004E2AC0 /* BLIRCode.h */; };
 		70B23F8E1FCE83C2004E2AC0 /* BLProfileStringResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4C1FCE83C1004E2AC0 /* BLProfileStringResult.h */; };
 		70B23F8F1FCE83C2004E2AC0 /* BLIRCodeInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4D1FCE83C1004E2AC0 /* BLIRCodeInfoResult.h */; };
+		70CDF83E1FCE9231007859FB /* libLet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CDF83D1FCE9231007859FB /* libLet.a */; };
 		77BEB727C4A1D9369CB3234DCF993195 /* Pods-BLLetBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D00C89860BF48CCC09CB891BEDC47B /* Pods-BLLetBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D7AA670D9FC11FA43CC0974B371FB28 /* BLLetBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F48F891D56AFE8CBEA76D7D5F943F53 /* BLLetBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA415809A75333B88F0BE075A81115AA /* Pods-BLLetBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC5F652E7E9C7E3FFF2A08425A2C3B /* Pods-BLLetBase_Example-dummy.m */; };
@@ -175,6 +176,7 @@
 		70B23F4B1FCE83C1004E2AC0 /* BLIRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLIRCode.h; path = BLLetBase/Classes/BLIRCode.h; sourceTree = "<group>"; };
 		70B23F4C1FCE83C1004E2AC0 /* BLProfileStringResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLProfileStringResult.h; path = BLLetBase/Classes/BLProfileStringResult.h; sourceTree = "<group>"; };
 		70B23F4D1FCE83C1004E2AC0 /* BLIRCodeInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLIRCodeInfoResult.h; path = BLLetBase/Classes/BLIRCodeInfoResult.h; sourceTree = "<group>"; };
+		70CDF83D1FCE9231007859FB /* libLet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLet.a; path = BLLetBase/Classes/libLet.a; sourceTree = "<group>"; };
 		78AB060DB9D92DAD6FF24D595C684593 /* Pods-BLLetBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLetBase_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7B70A5210ACC5FB259068DF56CA767A2 /* Pods_BLLetBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLLetBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D7AF3E4BFF12F78F969FAAB59F67D0 /* Pods-BLLetBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLLetBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AAB8EEFAEBA9A55449A79C1A393C339 /* Foundation.framework in Frameworks */,
+				70CDF83E1FCE9231007859FB /* libLet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +324,7 @@
 		CCF5F56C2192C5AAB223C8A6AECD59B1 /* BLLetBase */ = {
 			isa = PBXGroup;
 			children = (
+				70CDF83D1FCE9231007859FB /* libLet.a */,
 				70B23F401FCE83C1004E2AC0 /* BLAccount.h */,
 				70B23F321FCE83BF004E2AC0 /* BLAllFamilyInfoResult.h */,
 				70B23F471FCE83C1004E2AC0 /* BLAPConfigResult.h */,
