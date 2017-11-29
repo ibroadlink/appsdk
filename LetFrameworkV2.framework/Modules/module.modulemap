@@ -1,0 +1,6 @@
+framework module LetFrameworkV2 {
+  umbrella header "LetFrameworkV2.h"
+
+  export *
+  module * { export * }
+}
