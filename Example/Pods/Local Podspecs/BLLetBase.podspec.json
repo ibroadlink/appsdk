@@ -1,0 +1,22 @@
+{
+  "name": "BLLetBase",
+  "version": "0.1.0",
+  "summary": "A short description of BLLetBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjjllj@gmail.com/BLLetBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjjllj@gmail.com": "zjjllj@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zjjllj@gmail.com/BLLetBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BLLetBase/Classes/**/*"
+}

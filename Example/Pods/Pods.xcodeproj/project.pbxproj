@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12914036813168B2582A9E1C29F81D53 /* Pods-BLLetBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEE105A5251BB8C1164B4F131E3252 /* Pods-BLLetBase_Tests-dummy.m */; };
+		1AAB8EEFAEBA9A55449A79C1A393C339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		493275B2E9A32D7093517B3863F56387 /* Pods-BLLetBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5487BCC1944922BBCC00BDD3CB41A99 /* Pods-BLLetBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE91E36985B885271919DF579C3D1AD /* BLLetBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25B38A141D734987C6DA862949AA75 /* BLLetBase-dummy.m */; };
+		6D8F7ACF2EF4CFCC185DBBDBF4492A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		70B23F4E1FCE83C2004E2AC0 /* BLGetUserPhoneAndEmailResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F0C1FCE83BD004E2AC0 /* BLGetUserPhoneAndEmailResult.h */; };
+		70B23F4F1FCE83C2004E2AC0 /* BLFamilyConfigedDevicesResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F0D1FCE83BD004E2AC0 /* BLFamilyConfigedDevicesResult.h */; };
+		70B23F501FCE83C2004E2AC0 /* BLOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F0E1FCE83BE004E2AC0 /* BLOAuth.h */; };
+		70B23F511FCE83C2004E2AC0 /* BLS1NetWorkDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F0F1FCE83BE004E2AC0 /* BLS1NetWorkDataParser.h */; };
+		70B23F521FCE83C2004E2AC0 /* BLFamilyInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F101FCE83BE004E2AC0 /* BLFamilyInfoResult.h */; };
+		70B23F531FCE83C2004E2AC0 /* BLModuleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F111FCE83BE004E2AC0 /* BLModuleInfo.h */; };
+		70B23F541FCE83C2004E2AC0 /* BLStdData.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F121FCE83BE004E2AC0 /* BLStdData.h */; };
+		70B23F551FCE83C2004E2AC0 /* BLFamilyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F131FCE83BE004E2AC0 /* BLFamilyInfo.h */; };
+		70B23F561FCE83C2004E2AC0 /* BLUpdateDeviceResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F141FCE83BE004E2AC0 /* BLUpdateDeviceResult.h */; };
+		70B23F571FCE83C2004E2AC0 /* BLFamilyInvitedQrcodeGetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F151FCE83BE004E2AC0 /* BLFamilyInvitedQrcodeGetResult.h */; };
+		70B23F581FCE83C2004E2AC0 /* BLFamilyMemberInfoGetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F161FCE83BE004E2AC0 /* BLFamilyMemberInfoGetResult.h */; };
+		70B23F591FCE83C2004E2AC0 /* BLFamilyDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F171FCE83BE004E2AC0 /* BLFamilyDeviceInfo.h */; };
+		70B23F5A1FCE83C2004E2AC0 /* BLController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F181FCE83BE004E2AC0 /* BLController.h */; };
+		70B23F5B1FCE83C2004E2AC0 /* BLTaskDataResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F191FCE83BE004E2AC0 /* BLTaskDataResult.h */; };
+		70B23F5C1FCE83C2004E2AC0 /* BLSubdevBaseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1A1FCE83BE004E2AC0 /* BLSubdevBaseResult.h */; };
+		70B23F5D1FCE83C2004E2AC0 /* BLFamilyIdListGetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1B1FCE83BE004E2AC0 /* BLFamilyIdListGetResult.h */; };
+		70B23F5E1FCE83C2004E2AC0 /* BLOauthResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1C1FCE83BE004E2AC0 /* BLOauthResult.h */; };
+		70B23F5F1FCE83C2004E2AC0 /* BLBaseBodyResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1D1FCE83BE004E2AC0 /* BLBaseBodyResult.h */; };
+		70B23F601FCE83C2004E2AC0 /* BLDeviceConfigResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1E1FCE83BE004E2AC0 /* BLDeviceConfigResult.h */; };
+		70B23F611FCE83C2004E2AC0 /* BLManageRoomsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F1F1FCE83BE004E2AC0 /* BLManageRoomsResult.h */; };
+		70B23F621FCE83C2004E2AC0 /* BLBindDeviceResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F201FCE83BE004E2AC0 /* BLBindDeviceResult.h */; };
+		70B23F631FCE83C2004E2AC0 /* BLFamilyBaseInfoListResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F211FCE83BE004E2AC0 /* BLFamilyBaseInfoListResult.h */; };
+		70B23F641FCE83C2004E2AC0 /* BLPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F221FCE83BE004E2AC0 /* BLPicker.h */; };
+		70B23F651FCE83C2004E2AC0 /* BLRoomInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F231FCE83BE004E2AC0 /* BLRoomInfo.h */; };
+		70B23F661FCE83C2004E2AC0 /* BLFirmwareVersionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F241FCE83BE004E2AC0 /* BLFirmwareVersionResult.h */; };
+		70B23F671FCE83C2004E2AC0 /* BLPrivateDataResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F251FCE83BF004E2AC0 /* BLPrivateDataResult.h */; };
+		70B23F681FCE83C2004E2AC0 /* BLPrivateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F261FCE83BF004E2AC0 /* BLPrivateData.h */; };
+		70B23F691FCE83C2004E2AC0 /* BLSubDevAddResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F271FCE83BF004E2AC0 /* BLSubDevAddResult.h */; };
+		70B23F6A1FCE83C2004E2AC0 /* BLPassthroughResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F281FCE83BF004E2AC0 /* BLPassthroughResult.h */; };
+		70B23F6B1FCE83C2004E2AC0 /* BLFamilyInvitedQrcodePostResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F291FCE83BF004E2AC0 /* BLFamilyInvitedQrcodePostResult.h */; };
+		70B23F6C1FCE83C2004E2AC0 /* BLPrivateDataIdResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2A1FCE83BF004E2AC0 /* BLPrivateDataIdResult.h */; };
+		70B23F6D1FCE83C2004E2AC0 /* BLQueryResourceVersionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2B1FCE83BF004E2AC0 /* BLQueryResourceVersionResult.h */; };
+		70B23F6E1FCE83C2004E2AC0 /* BLModifyUserIconResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2C1FCE83BF004E2AC0 /* BLModifyUserIconResult.h */; };
+		70B23F6F1FCE83C2004E2AC0 /* BLDNADevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2D1FCE83BF004E2AC0 /* BLDNADevice.h */; };
+		70B23F701FCE83C2004E2AC0 /* BLDeviceTimeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2E1FCE83BF004E2AC0 /* BLDeviceTimeResult.h */; };
+		70B23F711FCE83C2004E2AC0 /* BLLet.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F2F1FCE83BF004E2AC0 /* BLLet.h */; };
+		70B23F721FCE83C2004E2AC0 /* BLModuleIncludeDev.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F301FCE83BF004E2AC0 /* BLModuleIncludeDev.h */; };
+		70B23F731FCE83C2004E2AC0 /* BLJSControlEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F311FCE83BF004E2AC0 /* BLJSControlEngine.h */; };
+		70B23F741FCE83C2004E2AC0 /* BLAllFamilyInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F321FCE83BF004E2AC0 /* BLAllFamilyInfoResult.h */; };
+		70B23F751FCE83C2004E2AC0 /* BLDownloadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F331FCE83C0004E2AC0 /* BLDownloadResult.h */; };
+		70B23F761FCE83C2004E2AC0 /* BLBaseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F341FCE83C0004E2AC0 /* BLBaseResult.h */; };
+		70B23F771FCE83C2004E2AC0 /* BLQueryIRCodeParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F351FCE83C0004E2AC0 /* BLQueryIRCodeParams.h */; };
+		70B23F781FCE83C2004E2AC0 /* BLGetAPListResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F361FCE83C0004E2AC0 /* BLGetAPListResult.h */; };
+		70B23F791FCE83C2004E2AC0 /* BLDNAControllerResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F371FCE83C0004E2AC0 /* BLDNAControllerResult.h */; };
+		70B23F7A1FCE83C2004E2AC0 /* BLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F381FCE83C0004E2AC0 /* BLConstants.h */; };
+		70B23F7B1FCE83C2004E2AC0 /* BLeAirNetWorkDataParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F391FCE83C0004E2AC0 /* BLeAirNetWorkDataParser.h */; };
+		70B23F7C1FCE83C2004E2AC0 /* BLIRCodeDataResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3A1FCE83C0004E2AC0 /* BLIRCodeDataResult.h */; };
+		70B23F7D1FCE83C2004E2AC0 /* BLFamilyElectricityInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3B1FCE83C0004E2AC0 /* BLFamilyElectricityInfo.h */; };
+		70B23F7E1FCE83C2004E2AC0 /* BLGetUserInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3C1FCE83C0004E2AC0 /* BLGetUserInfoResult.h */; };
+		70B23F7F1FCE83C2004E2AC0 /* BLConfigParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3D1FCE83C0004E2AC0 /* BLConfigParam.h */; };
+		70B23F801FCE83C2004E2AC0 /* BLSubDevListResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3E1FCE83C0004E2AC0 /* BLSubDevListResult.h */; };
+		70B23F811FCE83C2004E2AC0 /* BLFamilyController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F3F1FCE83C0004E2AC0 /* BLFamilyController.h */; };
+		70B23F821FCE83C2004E2AC0 /* BLAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F401FCE83C1004E2AC0 /* BLAccount.h */; };
+		70B23F831FCE83C2004E2AC0 /* BLFamilyAllInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F411FCE83C1004E2AC0 /* BLFamilyAllInfo.h */; };
+		70B23F841FCE83C2004E2AC0 /* BLModuleControlResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F421FCE83C1004E2AC0 /* BLModuleControlResult.h */; };
+		70B23F851FCE83C2004E2AC0 /* BLQueryTaskResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F431FCE83C1004E2AC0 /* BLQueryTaskResult.h */; };
+		70B23F861FCE83C2004E2AC0 /* BLPairResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F441FCE83C1004E2AC0 /* BLPairResult.h */; };
+		70B23F871FCE83C2004E2AC0 /* BLDefineRoomTypesResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F451FCE83C1004E2AC0 /* BLDefineRoomTypesResult.h */; };
+		70B23F881FCE83C2004E2AC0 /* BLStdControlResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F461FCE83C1004E2AC0 /* BLStdControlResult.h */; };
+		70B23F891FCE83C2004E2AC0 /* BLAPConfigResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F471FCE83C1004E2AC0 /* BLAPConfigResult.h */; };
+		70B23F8A1FCE83C2004E2AC0 /* BLFamilyMemberInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F481FCE83C1004E2AC0 /* BLFamilyMemberInfo.h */; };
+		70B23F8B1FCE83C2004E2AC0 /* BLFamilyElectricityInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F491FCE83C1004E2AC0 /* BLFamilyElectricityInfoResult.h */; };
+		70B23F8C1FCE83C2004E2AC0 /* BLLoginResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4A1FCE83C1004E2AC0 /* BLLoginResult.h */; };
+		70B23F8D1FCE83C2004E2AC0 /* BLIRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4B1FCE83C1004E2AC0 /* BLIRCode.h */; };
+		70B23F8E1FCE83C2004E2AC0 /* BLProfileStringResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4C1FCE83C1004E2AC0 /* BLProfileStringResult.h */; };
+		70B23F8F1FCE83C2004E2AC0 /* BLIRCodeInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B23F4D1FCE83C1004E2AC0 /* BLIRCodeInfoResult.h */; };
+		77BEB727C4A1D9369CB3234DCF993195 /* Pods-BLLetBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D00C89860BF48CCC09CB891BEDC47B /* Pods-BLLetBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7AA670D9FC11FA43CC0974B371FB28 /* BLLetBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F48F891D56AFE8CBEA76D7D5F943F53 /* BLLetBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA415809A75333B88F0BE075A81115AA /* Pods-BLLetBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC5F652E7E9C7E3FFF2A08425A2C3B /* Pods-BLLetBase_Example-dummy.m */; };
+		F01B34AB81927417546D17A5FB0C622B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0446D290259DBB4D17633576F147730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D6D3C80080DF69D1E99029A70CDF5F;
+			remoteInfo = BLLetBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEEE105A5251BB8C1164B4F131E3252 /* Pods-BLLetBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLLetBase_Tests-dummy.m"; sourceTree = "<group>"; };
+		125895286BE44438A4177822F5ED1A4C /* Pods-BLLetBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLetBase_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1285C1B8FE588979311F15157BD1CF1C /* Pods-BLLetBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLLetBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CE244CE3DA228B7D1936367DFACDD12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B212C4CA70E4522A14EEC1C662BFC4B /* BLLetBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLLetBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E13D804ECBF32EBA9F1FDDC74237DB4 /* Pods-BLLetBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLLetBase_Tests.modulemap"; sourceTree = "<group>"; };
+		3F9417EA0717A64D42613E3956B73C19 /* BLLetBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLLetBase.modulemap; sourceTree = "<group>"; };
+		4A0F7617498FDAEDB7FE12EC9B2754F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B25B38A141D734987C6DA862949AA75 /* BLLetBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLLetBase-dummy.m"; sourceTree = "<group>"; };
+		53E020B42B73390226F6645B3A13161C /* BLLetBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLLetBase.xcconfig; sourceTree = "<group>"; };
+		552A2926CD1D2869AE31971C2D882AFD /* Pods-BLLetBase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLetBase_Example-resources.sh"; sourceTree = "<group>"; };
+		55B13E2DB755DE4BF51FE43F1416ED7E /* BLLetBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLLetBase-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6872C478B3D039AC874AC6AF0A20FEB2 /* Pods-BLLetBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLLetBase_Example.modulemap"; sourceTree = "<group>"; };
+		70B23F0C1FCE83BD004E2AC0 /* BLGetUserPhoneAndEmailResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLGetUserPhoneAndEmailResult.h; path = BLLetBase/Classes/BLGetUserPhoneAndEmailResult.h; sourceTree = "<group>"; };
+		70B23F0D1FCE83BD004E2AC0 /* BLFamilyConfigedDevicesResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyConfigedDevicesResult.h; path = BLLetBase/Classes/BLFamilyConfigedDevicesResult.h; sourceTree = "<group>"; };
+		70B23F0E1FCE83BE004E2AC0 /* BLOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLOAuth.h; path = BLLetBase/Classes/BLOAuth.h; sourceTree = "<group>"; };
+		70B23F0F1FCE83BE004E2AC0 /* BLS1NetWorkDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLS1NetWorkDataParser.h; path = BLLetBase/Classes/BLS1NetWorkDataParser.h; sourceTree = "<group>"; };
+		70B23F101FCE83BE004E2AC0 /* BLFamilyInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyInfoResult.h; path = BLLetBase/Classes/BLFamilyInfoResult.h; sourceTree = "<group>"; };
+		70B23F111FCE83BE004E2AC0 /* BLModuleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLModuleInfo.h; path = BLLetBase/Classes/BLModuleInfo.h; sourceTree = "<group>"; };
+		70B23F121FCE83BE004E2AC0 /* BLStdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLStdData.h; path = BLLetBase/Classes/BLStdData.h; sourceTree = "<group>"; };
+		70B23F131FCE83BE004E2AC0 /* BLFamilyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyInfo.h; path = BLLetBase/Classes/BLFamilyInfo.h; sourceTree = "<group>"; };
+		70B23F141FCE83BE004E2AC0 /* BLUpdateDeviceResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUpdateDeviceResult.h; path = BLLetBase/Classes/BLUpdateDeviceResult.h; sourceTree = "<group>"; };
+		70B23F151FCE83BE004E2AC0 /* BLFamilyInvitedQrcodeGetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyInvitedQrcodeGetResult.h; path = BLLetBase/Classes/BLFamilyInvitedQrcodeGetResult.h; sourceTree = "<group>"; };
+		70B23F161FCE83BE004E2AC0 /* BLFamilyMemberInfoGetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyMemberInfoGetResult.h; path = BLLetBase/Classes/BLFamilyMemberInfoGetResult.h; sourceTree = "<group>"; };
+		70B23F171FCE83BE004E2AC0 /* BLFamilyDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyDeviceInfo.h; path = BLLetBase/Classes/BLFamilyDeviceInfo.h; sourceTree = "<group>"; };
+		70B23F181FCE83BE004E2AC0 /* BLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLController.h; path = BLLetBase/Classes/BLController.h; sourceTree = "<group>"; };
+		70B23F191FCE83BE004E2AC0 /* BLTaskDataResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLTaskDataResult.h; path = BLLetBase/Classes/BLTaskDataResult.h; sourceTree = "<group>"; };
+		70B23F1A1FCE83BE004E2AC0 /* BLSubdevBaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLSubdevBaseResult.h; path = BLLetBase/Classes/BLSubdevBaseResult.h; sourceTree = "<group>"; };
+		70B23F1B1FCE83BE004E2AC0 /* BLFamilyIdListGetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyIdListGetResult.h; path = BLLetBase/Classes/BLFamilyIdListGetResult.h; sourceTree = "<group>"; };
+		70B23F1C1FCE83BE004E2AC0 /* BLOauthResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLOauthResult.h; path = BLLetBase/Classes/BLOauthResult.h; sourceTree = "<group>"; };
+		70B23F1D1FCE83BE004E2AC0 /* BLBaseBodyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBaseBodyResult.h; path = BLLetBase/Classes/BLBaseBodyResult.h; sourceTree = "<group>"; };
+		70B23F1E1FCE83BE004E2AC0 /* BLDeviceConfigResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDeviceConfigResult.h; path = BLLetBase/Classes/BLDeviceConfigResult.h; sourceTree = "<group>"; };
+		70B23F1F1FCE83BE004E2AC0 /* BLManageRoomsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLManageRoomsResult.h; path = BLLetBase/Classes/BLManageRoomsResult.h; sourceTree = "<group>"; };
+		70B23F201FCE83BE004E2AC0 /* BLBindDeviceResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBindDeviceResult.h; path = BLLetBase/Classes/BLBindDeviceResult.h; sourceTree = "<group>"; };
+		70B23F211FCE83BE004E2AC0 /* BLFamilyBaseInfoListResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyBaseInfoListResult.h; path = BLLetBase/Classes/BLFamilyBaseInfoListResult.h; sourceTree = "<group>"; };
+		70B23F221FCE83BE004E2AC0 /* BLPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPicker.h; path = BLLetBase/Classes/BLPicker.h; sourceTree = "<group>"; };
+		70B23F231FCE83BE004E2AC0 /* BLRoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLRoomInfo.h; path = BLLetBase/Classes/BLRoomInfo.h; sourceTree = "<group>"; };
+		70B23F241FCE83BE004E2AC0 /* BLFirmwareVersionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFirmwareVersionResult.h; path = BLLetBase/Classes/BLFirmwareVersionResult.h; sourceTree = "<group>"; };
+		70B23F251FCE83BF004E2AC0 /* BLPrivateDataResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPrivateDataResult.h; path = BLLetBase/Classes/BLPrivateDataResult.h; sourceTree = "<group>"; };
+		70B23F261FCE83BF004E2AC0 /* BLPrivateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPrivateData.h; path = BLLetBase/Classes/BLPrivateData.h; sourceTree = "<group>"; };
+		70B23F271FCE83BF004E2AC0 /* BLSubDevAddResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLSubDevAddResult.h; path = BLLetBase/Classes/BLSubDevAddResult.h; sourceTree = "<group>"; };
+		70B23F281FCE83BF004E2AC0 /* BLPassthroughResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPassthroughResult.h; path = BLLetBase/Classes/BLPassthroughResult.h; sourceTree = "<group>"; };
+		70B23F291FCE83BF004E2AC0 /* BLFamilyInvitedQrcodePostResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyInvitedQrcodePostResult.h; path = BLLetBase/Classes/BLFamilyInvitedQrcodePostResult.h; sourceTree = "<group>"; };
+		70B23F2A1FCE83BF004E2AC0 /* BLPrivateDataIdResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPrivateDataIdResult.h; path = BLLetBase/Classes/BLPrivateDataIdResult.h; sourceTree = "<group>"; };
+		70B23F2B1FCE83BF004E2AC0 /* BLQueryResourceVersionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLQueryResourceVersionResult.h; path = BLLetBase/Classes/BLQueryResourceVersionResult.h; sourceTree = "<group>"; };
+		70B23F2C1FCE83BF004E2AC0 /* BLModifyUserIconResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLModifyUserIconResult.h; path = BLLetBase/Classes/BLModifyUserIconResult.h; sourceTree = "<group>"; };
+		70B23F2D1FCE83BF004E2AC0 /* BLDNADevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDNADevice.h; path = BLLetBase/Classes/BLDNADevice.h; sourceTree = "<group>"; };
+		70B23F2E1FCE83BF004E2AC0 /* BLDeviceTimeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDeviceTimeResult.h; path = BLLetBase/Classes/BLDeviceTimeResult.h; sourceTree = "<group>"; };
+		70B23F2F1FCE83BF004E2AC0 /* BLLet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLLet.h; path = BLLetBase/Classes/BLLet.h; sourceTree = "<group>"; };
+		70B23F301FCE83BF004E2AC0 /* BLModuleIncludeDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLModuleIncludeDev.h; path = BLLetBase/Classes/BLModuleIncludeDev.h; sourceTree = "<group>"; };
+		70B23F311FCE83BF004E2AC0 /* BLJSControlEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLJSControlEngine.h; path = BLLetBase/Classes/BLJSControlEngine.h; sourceTree = "<group>"; };
+		70B23F321FCE83BF004E2AC0 /* BLAllFamilyInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLAllFamilyInfoResult.h; path = BLLetBase/Classes/BLAllFamilyInfoResult.h; sourceTree = "<group>"; };
+		70B23F331FCE83C0004E2AC0 /* BLDownloadResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDownloadResult.h; path = BLLetBase/Classes/BLDownloadResult.h; sourceTree = "<group>"; };
+		70B23F341FCE83C0004E2AC0 /* BLBaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBaseResult.h; path = BLLetBase/Classes/BLBaseResult.h; sourceTree = "<group>"; };
+		70B23F351FCE83C0004E2AC0 /* BLQueryIRCodeParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLQueryIRCodeParams.h; path = BLLetBase/Classes/BLQueryIRCodeParams.h; sourceTree = "<group>"; };
+		70B23F361FCE83C0004E2AC0 /* BLGetAPListResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLGetAPListResult.h; path = BLLetBase/Classes/BLGetAPListResult.h; sourceTree = "<group>"; };
+		70B23F371FCE83C0004E2AC0 /* BLDNAControllerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDNAControllerResult.h; path = BLLetBase/Classes/BLDNAControllerResult.h; sourceTree = "<group>"; };
+		70B23F381FCE83C0004E2AC0 /* BLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLConstants.h; path = BLLetBase/Classes/BLConstants.h; sourceTree = "<group>"; };
+		70B23F391FCE83C0004E2AC0 /* BLeAirNetWorkDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLeAirNetWorkDataParser.h; path = BLLetBase/Classes/BLeAirNetWorkDataParser.h; sourceTree = "<group>"; };
+		70B23F3A1FCE83C0004E2AC0 /* BLIRCodeDataResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLIRCodeDataResult.h; path = BLLetBase/Classes/BLIRCodeDataResult.h; sourceTree = "<group>"; };
+		70B23F3B1FCE83C0004E2AC0 /* BLFamilyElectricityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyElectricityInfo.h; path = BLLetBase/Classes/BLFamilyElectricityInfo.h; sourceTree = "<group>"; };
+		70B23F3C1FCE83C0004E2AC0 /* BLGetUserInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLGetUserInfoResult.h; path = BLLetBase/Classes/BLGetUserInfoResult.h; sourceTree = "<group>"; };
+		70B23F3D1FCE83C0004E2AC0 /* BLConfigParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLConfigParam.h; path = BLLetBase/Classes/BLConfigParam.h; sourceTree = "<group>"; };
+		70B23F3E1FCE83C0004E2AC0 /* BLSubDevListResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLSubDevListResult.h; path = BLLetBase/Classes/BLSubDevListResult.h; sourceTree = "<group>"; };
+		70B23F3F1FCE83C0004E2AC0 /* BLFamilyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyController.h; path = BLLetBase/Classes/BLFamilyController.h; sourceTree = "<group>"; };
+		70B23F401FCE83C1004E2AC0 /* BLAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLAccount.h; path = BLLetBase/Classes/BLAccount.h; sourceTree = "<group>"; };
+		70B23F411FCE83C1004E2AC0 /* BLFamilyAllInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyAllInfo.h; path = BLLetBase/Classes/BLFamilyAllInfo.h; sourceTree = "<group>"; };
+		70B23F421FCE83C1004E2AC0 /* BLModuleControlResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLModuleControlResult.h; path = BLLetBase/Classes/BLModuleControlResult.h; sourceTree = "<group>"; };
+		70B23F431FCE83C1004E2AC0 /* BLQueryTaskResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLQueryTaskResult.h; path = BLLetBase/Classes/BLQueryTaskResult.h; sourceTree = "<group>"; };
+		70B23F441FCE83C1004E2AC0 /* BLPairResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLPairResult.h; path = BLLetBase/Classes/BLPairResult.h; sourceTree = "<group>"; };
+		70B23F451FCE83C1004E2AC0 /* BLDefineRoomTypesResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLDefineRoomTypesResult.h; path = BLLetBase/Classes/BLDefineRoomTypesResult.h; sourceTree = "<group>"; };
+		70B23F461FCE83C1004E2AC0 /* BLStdControlResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLStdControlResult.h; path = BLLetBase/Classes/BLStdControlResult.h; sourceTree = "<group>"; };
+		70B23F471FCE83C1004E2AC0 /* BLAPConfigResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLAPConfigResult.h; path = BLLetBase/Classes/BLAPConfigResult.h; sourceTree = "<group>"; };
+		70B23F481FCE83C1004E2AC0 /* BLFamilyMemberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyMemberInfo.h; path = BLLetBase/Classes/BLFamilyMemberInfo.h; sourceTree = "<group>"; };
+		70B23F491FCE83C1004E2AC0 /* BLFamilyElectricityInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLFamilyElectricityInfoResult.h; path = BLLetBase/Classes/BLFamilyElectricityInfoResult.h; sourceTree = "<group>"; };
+		70B23F4A1FCE83C1004E2AC0 /* BLLoginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLLoginResult.h; path = BLLetBase/Classes/BLLoginResult.h; sourceTree = "<group>"; };
+		70B23F4B1FCE83C1004E2AC0 /* BLIRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLIRCode.h; path = BLLetBase/Classes/BLIRCode.h; sourceTree = "<group>"; };
+		70B23F4C1FCE83C1004E2AC0 /* BLProfileStringResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLProfileStringResult.h; path = BLLetBase/Classes/BLProfileStringResult.h; sourceTree = "<group>"; };
+		70B23F4D1FCE83C1004E2AC0 /* BLIRCodeInfoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLIRCodeInfoResult.h; path = BLLetBase/Classes/BLIRCodeInfoResult.h; sourceTree = "<group>"; };
+		78AB060DB9D92DAD6FF24D595C684593 /* Pods-BLLetBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLetBase_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B70A5210ACC5FB259068DF56CA767A2 /* Pods_BLLetBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLLetBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D7AF3E4BFF12F78F969FAAB59F67D0 /* Pods-BLLetBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLLetBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A7D1324B2DC8F1D2B50A64E2E1C182 /* Pods-BLLetBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLetBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		96AC5F652E7E9C7E3FFF2A08425A2C3B /* Pods-BLLetBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLLetBase_Example-dummy.m"; sourceTree = "<group>"; };
+		98D5C8802BC4DA4AE68114B9C6FFE9CF /* Pods-BLLetBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLetBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9F48F891D56AFE8CBEA76D7D5F943F53 /* BLLetBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLLetBase-umbrella.h"; sourceTree = "<group>"; };
+		A51A64148ED25A746CF636D00B4FAB9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD87958B05A50C5310268B67B4EEA042 /* Pods-BLLetBase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLetBase_Tests-resources.sh"; sourceTree = "<group>"; };
+		B70E64FB8E909403D1BB9CB59B9CEE34 /* Pods_BLLetBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLLetBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC6312CEA294669A01A511D9D14F560 /* Pods-BLLetBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLLetBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5487BCC1944922BBCC00BDD3CB41A99 /* Pods-BLLetBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLLetBase_Example-umbrella.h"; sourceTree = "<group>"; };
+		C6F620B1DFA3AA1CC05EFA9BE35F4622 /* Pods-BLLetBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLLetBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4D00C89860BF48CCC09CB891BEDC47B /* Pods-BLLetBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLLetBase_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F4F26FD1B1CC252042E0CB1EF65715AF /* Pods-BLLetBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLetBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F67D896A9ED75F42BCC7CAC2E63146CD /* Pods-BLLetBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLetBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C101BA5346A3B88314331510BCE67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01B34AB81927417546D17A5FB0C622B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E05CB039468D68133A19D663F40B91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB8EEFAEBA9A55449A79C1A393C339 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D960F544CDEC4927AB9F755ED4200978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8F7ACF2EF4CFCC185DBBDBF4492A3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659DE647013AE80B46643E6DD4AA9D04 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF5F56C2192C5AAB223C8A6AECD59B1 /* BLLetBase */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				659DE647013AE80B46643E6DD4AA9D04 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C4D82122B86FF96E5AE503BC4F37E9D5 /* Products */,
+				C9F7CEEFD1FE15780FBDDCDB48962660 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A76B4B41B39CA7789D02E10BFEE4415 /* Pods-BLLetBase_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2CE244CE3DA228B7D1936367DFACDD12 /* Info.plist */,
+				6872C478B3D039AC874AC6AF0A20FEB2 /* Pods-BLLetBase_Example.modulemap */,
+				86D7AF3E4BFF12F78F969FAAB59F67D0 /* Pods-BLLetBase_Example-acknowledgements.markdown */,
+				C6F620B1DFA3AA1CC05EFA9BE35F4622 /* Pods-BLLetBase_Example-acknowledgements.plist */,
+				96AC5F652E7E9C7E3FFF2A08425A2C3B /* Pods-BLLetBase_Example-dummy.m */,
+				78AB060DB9D92DAD6FF24D595C684593 /* Pods-BLLetBase_Example-frameworks.sh */,
+				552A2926CD1D2869AE31971C2D882AFD /* Pods-BLLetBase_Example-resources.sh */,
+				C5487BCC1944922BBCC00BDD3CB41A99 /* Pods-BLLetBase_Example-umbrella.h */,
+				94A7D1324B2DC8F1D2B50A64E2E1C182 /* Pods-BLLetBase_Example.debug.xcconfig */,
+				125895286BE44438A4177822F5ED1A4C /* Pods-BLLetBase_Example.release.xcconfig */,
+			);
+			name = "Pods-BLLetBase_Example";
+			path = "Target Support Files/Pods-BLLetBase_Example";
+			sourceTree = "<group>";
+		};
+		A4CE74ED89AC3927EB451927631F5570 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9417EA0717A64D42613E3956B73C19 /* BLLetBase.modulemap */,
+				53E020B42B73390226F6645B3A13161C /* BLLetBase.xcconfig */,
+				4B25B38A141D734987C6DA862949AA75 /* BLLetBase-dummy.m */,
+				55B13E2DB755DE4BF51FE43F1416ED7E /* BLLetBase-prefix.pch */,
+				9F48F891D56AFE8CBEA76D7D5F943F53 /* BLLetBase-umbrella.h */,
+				4A0F7617498FDAEDB7FE12EC9B2754F7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLLetBase";
+			sourceTree = "<group>";
+		};
+		A628D9BE59E6D44042C23C92084903DC /* Pods-BLLetBase_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A51A64148ED25A746CF636D00B4FAB9F /* Info.plist */,
+				3E13D804ECBF32EBA9F1FDDC74237DB4 /* Pods-BLLetBase_Tests.modulemap */,
+				BBC6312CEA294669A01A511D9D14F560 /* Pods-BLLetBase_Tests-acknowledgements.markdown */,
+				1285C1B8FE588979311F15157BD1CF1C /* Pods-BLLetBase_Tests-acknowledgements.plist */,
+				0BEEE105A5251BB8C1164B4F131E3252 /* Pods-BLLetBase_Tests-dummy.m */,
+				F4F26FD1B1CC252042E0CB1EF65715AF /* Pods-BLLetBase_Tests-frameworks.sh */,
+				AD87958B05A50C5310268B67B4EEA042 /* Pods-BLLetBase_Tests-resources.sh */,
+				D4D00C89860BF48CCC09CB891BEDC47B /* Pods-BLLetBase_Tests-umbrella.h */,
+				F67D896A9ED75F42BCC7CAC2E63146CD /* Pods-BLLetBase_Tests.debug.xcconfig */,
+				98D5C8802BC4DA4AE68114B9C6FFE9CF /* Pods-BLLetBase_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLLetBase_Tests";
+			path = "Target Support Files/Pods-BLLetBase_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D82122B86FF96E5AE503BC4F37E9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B212C4CA70E4522A14EEC1C662BFC4B /* BLLetBase.framework */,
+				7B70A5210ACC5FB259068DF56CA767A2 /* Pods_BLLetBase_Example.framework */,
+				B70E64FB8E909403D1BB9CB59B9CEE34 /* Pods_BLLetBase_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F7CEEFD1FE15780FBDDCDB48962660 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A76B4B41B39CA7789D02E10BFEE4415 /* Pods-BLLetBase_Example */,
+				A628D9BE59E6D44042C23C92084903DC /* Pods-BLLetBase_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCF5F56C2192C5AAB223C8A6AECD59B1 /* BLLetBase */ = {
+			isa = PBXGroup;
+			children = (
+				70B23F401FCE83C1004E2AC0 /* BLAccount.h */,
+				70B23F321FCE83BF004E2AC0 /* BLAllFamilyInfoResult.h */,
+				70B23F471FCE83C1004E2AC0 /* BLAPConfigResult.h */,
+				70B23F1D1FCE83BE004E2AC0 /* BLBaseBodyResult.h */,
+				70B23F341FCE83C0004E2AC0 /* BLBaseResult.h */,
+				70B23F201FCE83BE004E2AC0 /* BLBindDeviceResult.h */,
+				70B23F3D1FCE83C0004E2AC0 /* BLConfigParam.h */,
+				70B23F381FCE83C0004E2AC0 /* BLConstants.h */,
+				70B23F181FCE83BE004E2AC0 /* BLController.h */,
+				70B23F451FCE83C1004E2AC0 /* BLDefineRoomTypesResult.h */,
+				70B23F1E1FCE83BE004E2AC0 /* BLDeviceConfigResult.h */,
+				70B23F2E1FCE83BF004E2AC0 /* BLDeviceTimeResult.h */,
+				70B23F371FCE83C0004E2AC0 /* BLDNAControllerResult.h */,
+				70B23F2D1FCE83BF004E2AC0 /* BLDNADevice.h */,
+				70B23F331FCE83C0004E2AC0 /* BLDownloadResult.h */,
+				70B23F391FCE83C0004E2AC0 /* BLeAirNetWorkDataParser.h */,
+				70B23F411FCE83C1004E2AC0 /* BLFamilyAllInfo.h */,
+				70B23F211FCE83BE004E2AC0 /* BLFamilyBaseInfoListResult.h */,
+				70B23F0D1FCE83BD004E2AC0 /* BLFamilyConfigedDevicesResult.h */,
+				70B23F3F1FCE83C0004E2AC0 /* BLFamilyController.h */,
+				70B23F171FCE83BE004E2AC0 /* BLFamilyDeviceInfo.h */,
+				70B23F3B1FCE83C0004E2AC0 /* BLFamilyElectricityInfo.h */,
+				70B23F491FCE83C1004E2AC0 /* BLFamilyElectricityInfoResult.h */,
+				70B23F1B1FCE83BE004E2AC0 /* BLFamilyIdListGetResult.h */,
+				70B23F131FCE83BE004E2AC0 /* BLFamilyInfo.h */,
+				70B23F101FCE83BE004E2AC0 /* BLFamilyInfoResult.h */,
+				70B23F151FCE83BE004E2AC0 /* BLFamilyInvitedQrcodeGetResult.h */,
+				70B23F291FCE83BF004E2AC0 /* BLFamilyInvitedQrcodePostResult.h */,
+				70B23F481FCE83C1004E2AC0 /* BLFamilyMemberInfo.h */,
+				70B23F161FCE83BE004E2AC0 /* BLFamilyMemberInfoGetResult.h */,
+				70B23F241FCE83BE004E2AC0 /* BLFirmwareVersionResult.h */,
+				70B23F361FCE83C0004E2AC0 /* BLGetAPListResult.h */,
+				70B23F3C1FCE83C0004E2AC0 /* BLGetUserInfoResult.h */,
+				70B23F0C1FCE83BD004E2AC0 /* BLGetUserPhoneAndEmailResult.h */,
+				70B23F4B1FCE83C1004E2AC0 /* BLIRCode.h */,
+				70B23F3A1FCE83C0004E2AC0 /* BLIRCodeDataResult.h */,
+				70B23F4D1FCE83C1004E2AC0 /* BLIRCodeInfoResult.h */,
+				70B23F311FCE83BF004E2AC0 /* BLJSControlEngine.h */,
+				70B23F2F1FCE83BF004E2AC0 /* BLLet.h */,
+				70B23F4A1FCE83C1004E2AC0 /* BLLoginResult.h */,
+				70B23F1F1FCE83BE004E2AC0 /* BLManageRoomsResult.h */,
+				70B23F2C1FCE83BF004E2AC0 /* BLModifyUserIconResult.h */,
+				70B23F421FCE83C1004E2AC0 /* BLModuleControlResult.h */,
+				70B23F301FCE83BF004E2AC0 /* BLModuleIncludeDev.h */,
+				70B23F111FCE83BE004E2AC0 /* BLModuleInfo.h */,
+				70B23F0E1FCE83BE004E2AC0 /* BLOAuth.h */,
+				70B23F1C1FCE83BE004E2AC0 /* BLOauthResult.h */,
+				70B23F441FCE83C1004E2AC0 /* BLPairResult.h */,
+				70B23F281FCE83BF004E2AC0 /* BLPassthroughResult.h */,
+				70B23F221FCE83BE004E2AC0 /* BLPicker.h */,
+				70B23F261FCE83BF004E2AC0 /* BLPrivateData.h */,
+				70B23F2A1FCE83BF004E2AC0 /* BLPrivateDataIdResult.h */,
+				70B23F251FCE83BF004E2AC0 /* BLPrivateDataResult.h */,
+				70B23F4C1FCE83C1004E2AC0 /* BLProfileStringResult.h */,
+				70B23F351FCE83C0004E2AC0 /* BLQueryIRCodeParams.h */,
+				70B23F2B1FCE83BF004E2AC0 /* BLQueryResourceVersionResult.h */,
+				70B23F431FCE83C1004E2AC0 /* BLQueryTaskResult.h */,
+				70B23F231FCE83BE004E2AC0 /* BLRoomInfo.h */,
+				70B23F0F1FCE83BE004E2AC0 /* BLS1NetWorkDataParser.h */,
+				70B23F461FCE83C1004E2AC0 /* BLStdControlResult.h */,
+				70B23F121FCE83BE004E2AC0 /* BLStdData.h */,
+				70B23F271FCE83BF004E2AC0 /* BLSubDevAddResult.h */,
+				70B23F1A1FCE83BE004E2AC0 /* BLSubdevBaseResult.h */,
+				70B23F3E1FCE83C0004E2AC0 /* BLSubDevListResult.h */,
+				70B23F191FCE83BE004E2AC0 /* BLTaskDataResult.h */,
+				70B23F141FCE83BE004E2AC0 /* BLUpdateDeviceResult.h */,
+				A4CE74ED89AC3927EB451927631F5570 /* Support Files */,
+			);
+			name = BLLetBase;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		405F5C17C10285308123B06936ADB107 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493275B2E9A32D7093517B3863F56387 /* Pods-BLLetBase_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A72707CAC130175B101F4233C6CEDDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BEB727C4A1D9369CB3234DCF993195 /* Pods-BLLetBase_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EC0576181ADE92EE92431FD6ECE510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B23F5D1FCE83C2004E2AC0 /* BLFamilyIdListGetResult.h in Headers */,
+				70B23F771FCE83C2004E2AC0 /* BLQueryIRCodeParams.h in Headers */,
+				70B23F5E1FCE83C2004E2AC0 /* BLOauthResult.h in Headers */,
+				70B23F4F1FCE83C2004E2AC0 /* BLFamilyConfigedDevicesResult.h in Headers */,
+				8D7AA670D9FC11FA43CC0974B371FB28 /* BLLetBase-umbrella.h in Headers */,
+				70B23F5B1FCE83C2004E2AC0 /* BLTaskDataResult.h in Headers */,
+				70B23F691FCE83C2004E2AC0 /* BLSubDevAddResult.h in Headers */,
+				70B23F7D1FCE83C2004E2AC0 /* BLFamilyElectricityInfo.h in Headers */,
+				70B23F7C1FCE83C2004E2AC0 /* BLIRCodeDataResult.h in Headers */,
+				70B23F651FCE83C2004E2AC0 /* BLRoomInfo.h in Headers */,
+				70B23F731FCE83C2004E2AC0 /* BLJSControlEngine.h in Headers */,
+				70B23F581FCE83C2004E2AC0 /* BLFamilyMemberInfoGetResult.h in Headers */,
+				70B23F571FCE83C2004E2AC0 /* BLFamilyInvitedQrcodeGetResult.h in Headers */,
+				70B23F781FCE83C2004E2AC0 /* BLGetAPListResult.h in Headers */,
+				70B23F761FCE83C2004E2AC0 /* BLBaseResult.h in Headers */,
+				70B23F851FCE83C2004E2AC0 /* BLQueryTaskResult.h in Headers */,
+				70B23F601FCE83C2004E2AC0 /* BLDeviceConfigResult.h in Headers */,
+				70B23F7B1FCE83C2004E2AC0 /* BLeAirNetWorkDataParser.h in Headers */,
+				70B23F6D1FCE83C2004E2AC0 /* BLQueryResourceVersionResult.h in Headers */,
+				70B23F791FCE83C2004E2AC0 /* BLDNAControllerResult.h in Headers */,
+				70B23F501FCE83C2004E2AC0 /* BLOAuth.h in Headers */,
+				70B23F631FCE83C2004E2AC0 /* BLFamilyBaseInfoListResult.h in Headers */,
+				70B23F7E1FCE83C2004E2AC0 /* BLGetUserInfoResult.h in Headers */,
+				70B23F671FCE83C2004E2AC0 /* BLPrivateDataResult.h in Headers */,
+				70B23F811FCE83C2004E2AC0 /* BLFamilyController.h in Headers */,
+				70B23F591FCE83C2004E2AC0 /* BLFamilyDeviceInfo.h in Headers */,
+				70B23F841FCE83C2004E2AC0 /* BLModuleControlResult.h in Headers */,
+				70B23F8F1FCE83C2004E2AC0 /* BLIRCodeInfoResult.h in Headers */,
+				70B23F531FCE83C2004E2AC0 /* BLModuleInfo.h in Headers */,
+				70B23F6F1FCE83C2004E2AC0 /* BLDNADevice.h in Headers */,
+				70B23F641FCE83C2004E2AC0 /* BLPicker.h in Headers */,
+				70B23F541FCE83C2004E2AC0 /* BLStdData.h in Headers */,
+				70B23F661FCE83C2004E2AC0 /* BLFirmwareVersionResult.h in Headers */,
+				70B23F7F1FCE83C2004E2AC0 /* BLConfigParam.h in Headers */,
+				70B23F8D1FCE83C2004E2AC0 /* BLIRCode.h in Headers */,
+				70B23F5F1FCE83C2004E2AC0 /* BLBaseBodyResult.h in Headers */,
+				70B23F511FCE83C2004E2AC0 /* BLS1NetWorkDataParser.h in Headers */,
+				70B23F801FCE83C2004E2AC0 /* BLSubDevListResult.h in Headers */,
+				70B23F8B1FCE83C2004E2AC0 /* BLFamilyElectricityInfoResult.h in Headers */,
+				70B23F701FCE83C2004E2AC0 /* BLDeviceTimeResult.h in Headers */,
+				70B23F561FCE83C2004E2AC0 /* BLUpdateDeviceResult.h in Headers */,
+				70B23F741FCE83C2004E2AC0 /* BLAllFamilyInfoResult.h in Headers */,
+				70B23F7A1FCE83C2004E2AC0 /* BLConstants.h in Headers */,
+				70B23F8A1FCE83C2004E2AC0 /* BLFamilyMemberInfo.h in Headers */,
+				70B23F711FCE83C2004E2AC0 /* BLLet.h in Headers */,
+				70B23F8C1FCE83C2004E2AC0 /* BLLoginResult.h in Headers */,
+				70B23F721FCE83C2004E2AC0 /* BLModuleIncludeDev.h in Headers */,
+				70B23F821FCE83C2004E2AC0 /* BLAccount.h in Headers */,
+				70B23F6B1FCE83C2004E2AC0 /* BLFamilyInvitedQrcodePostResult.h in Headers */,
+				70B23F5C1FCE83C2004E2AC0 /* BLSubdevBaseResult.h in Headers */,
+				70B23F4E1FCE83C2004E2AC0 /* BLGetUserPhoneAndEmailResult.h in Headers */,
+				70B23F6E1FCE83C2004E2AC0 /* BLModifyUserIconResult.h in Headers */,
+				70B23F891FCE83C2004E2AC0 /* BLAPConfigResult.h in Headers */,
+				70B23F521FCE83C2004E2AC0 /* BLFamilyInfoResult.h in Headers */,
+				70B23F621FCE83C2004E2AC0 /* BLBindDeviceResult.h in Headers */,
+				70B23F871FCE83C2004E2AC0 /* BLDefineRoomTypesResult.h in Headers */,
+				70B23F861FCE83C2004E2AC0 /* BLPairResult.h in Headers */,
+				70B23F681FCE83C2004E2AC0 /* BLPrivateData.h in Headers */,
+				70B23F831FCE83C2004E2AC0 /* BLFamilyAllInfo.h in Headers */,
+				70B23F751FCE83C2004E2AC0 /* BLDownloadResult.h in Headers */,
+				70B23F5A1FCE83C2004E2AC0 /* BLController.h in Headers */,
+				70B23F6C1FCE83C2004E2AC0 /* BLPrivateDataIdResult.h in Headers */,
+				70B23F551FCE83C2004E2AC0 /* BLFamilyInfo.h in Headers */,
+				70B23F8E1FCE83C2004E2AC0 /* BLProfileStringResult.h in Headers */,
+				70B23F6A1FCE83C2004E2AC0 /* BLPassthroughResult.h in Headers */,
+				70B23F611FCE83C2004E2AC0 /* BLManageRoomsResult.h in Headers */,
+				70B23F881FCE83C2004E2AC0 /* BLStdControlResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15D6D3C80080DF69D1E99029A70CDF5F /* BLLetBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29607FB0B833370616FFA4F3A2E8C4F5 /* Build configuration list for PBXNativeTarget "BLLetBase" */;
+			buildPhases = (
+				5F33303CE9307D3CB6863BFBE6DA53B4 /* Sources */,
+				0E05CB039468D68133A19D663F40B91A /* Frameworks */,
+				70EC0576181ADE92EE92431FD6ECE510 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLLetBase;
+			productName = BLLetBase;
+			productReference = 3B212C4CA70E4522A14EEC1C662BFC4B /* BLLetBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FE5CAF2AC512D6E6B3518330AC934C4 /* Pods-BLLetBase_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EA752363E3B00C08AE08FD48B7800B /* Build configuration list for PBXNativeTarget "Pods-BLLetBase_Tests" */;
+			buildPhases = (
+				60E97756D25E8804140206619647B96C /* Sources */,
+				D960F544CDEC4927AB9F755ED4200978 /* Frameworks */,
+				5A72707CAC130175B101F4233C6CEDDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BLLetBase_Tests";
+			productName = "Pods-BLLetBase_Tests";
+			productReference = B70E64FB8E909403D1BB9CB59B9CEE34 /* Pods_BLLetBase_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDBB6BF87314D1981C4C427E044AD01A /* Pods-BLLetBase_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47B4AF2DAB6A851F36D5A4F6DEE0219 /* Build configuration list for PBXNativeTarget "Pods-BLLetBase_Example" */;
+			buildPhases = (
+				F0AEFC9CB3D806D43B9F6A0E96FE211C /* Sources */,
+				03C101BA5346A3B88314331510BCE67A /* Frameworks */,
+				405F5C17C10285308123B06936ADB107 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA9D0BC58B695B3FA067A56286BFE8C /* PBXTargetDependency */,
+			);
+			name = "Pods-BLLetBase_Example";
+			productName = "Pods-BLLetBase_Example";
+			productReference = 7B70A5210ACC5FB259068DF56CA767A2 /* Pods_BLLetBase_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4D82122B86FF96E5AE503BC4F37E9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D6D3C80080DF69D1E99029A70CDF5F /* BLLetBase */,
+				EDBB6BF87314D1981C4C427E044AD01A /* Pods-BLLetBase_Example */,
+				1FE5CAF2AC512D6E6B3518330AC934C4 /* Pods-BLLetBase_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F33303CE9307D3CB6863BFBE6DA53B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE91E36985B885271919DF579C3D1AD /* BLLetBase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E97756D25E8804140206619647B96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12914036813168B2582A9E1C29F81D53 /* Pods-BLLetBase_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AEFC9CB3D806D43B9F6A0E96FE211C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA415809A75333B88F0BE075A81115AA /* Pods-BLLetBase_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEA9D0BC58B695B3FA067A56286BFE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLLetBase;
+			target = 15D6D3C80080DF69D1E99029A70CDF5F /* BLLetBase */;
+			targetProxy = C0446D290259DBB4D17633576F147730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16222F0D08DCA25492648CA6EB199C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D5C8802BC4DA4AE68114B9C6FFE9CF /* Pods-BLLetBase_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLLetBase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLLetBase_Tests/Pods-BLLetBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLLetBase_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47DED74917AF7C656C9B6397C354F40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E020B42B73390226F6645B3A13161C /* BLLetBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLLetBase/BLLetBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLLetBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLLetBase/BLLetBase.modulemap";
+				PRODUCT_NAME = BLLetBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		509870A4094F7EC76EE5EBF240650C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125895286BE44438A4177822F5ED1A4C /* Pods-BLLetBase_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLLetBase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLLetBase_Example/Pods-BLLetBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLLetBase_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67608A62784A9D1F2F57BDEE9253E6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67D896A9ED75F42BCC7CAC2E63146CD /* Pods-BLLetBase_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLLetBase_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLLetBase_Tests/Pods-BLLetBase_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLLetBase_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72570BB4B56E47124D8783F43949794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E020B42B73390226F6645B3A13161C /* BLLetBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLLetBase/BLLetBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLLetBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLLetBase/BLLetBase.modulemap";
+				PRODUCT_NAME = BLLetBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A2E81B1E00342C5B5B89ED938F03E6BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A7D1324B2DC8F1D2B50A64E2E1C182 /* Pods-BLLetBase_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLLetBase_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLLetBase_Example/Pods-BLLetBase_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BLLetBase_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29607FB0B833370616FFA4F3A2E8C4F5 /* Build configuration list for PBXNativeTarget "BLLetBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72570BB4B56E47124D8783F43949794C /* Debug */,
+				47DED74917AF7C656C9B6397C354F40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EA752363E3B00C08AE08FD48B7800B /* Build configuration list for PBXNativeTarget "Pods-BLLetBase_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67608A62784A9D1F2F57BDEE9253E6DE /* Debug */,
+				16222F0D08DCA25492648CA6EB199C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47B4AF2DAB6A851F36D5A4F6DEE0219 /* Build configuration list for PBXNativeTarget "Pods-BLLetBase_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E81B1E00342C5B5B89ED938F03E6BD /* Debug */,
+				509870A4094F7EC76EE5EBF240650C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

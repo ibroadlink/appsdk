@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLLetBase_Example' do
+  pod 'BLLetBase', :path => '../'
+
+  target 'BLLetBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
