@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLLetBase'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'BLLet Base Library'
 
 # This description is used to generate tags and improve search results.
