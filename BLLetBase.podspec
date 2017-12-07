@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLLetBase'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'BLLet Base Library'
 
 # This description is used to generate tags and improve search results.
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.libraries = 'sqlite3','z'
-  s.vendored_libraries = 'BLLetBase/Classes/*.{a}'
+  s.vendored_libraries = 'BLLetBase/Classes/*.{framework}'
 
 end
