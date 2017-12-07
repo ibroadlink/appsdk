@@ -1,9 +1,9 @@
 {
   "name": "BLLetBase",
-  "version": "0.1.0",
-  "summary": "A short description of BLLetBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zjjllj@gmail.com/BLLetBase",
+  "version": "0.1.3",
+  "summary": "BLLet Base Library",
+  "description": "BLLet contains account, controller",
+  "homepage": "http://www.broadlink.com.cn",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "zjjllj@gmail.com": "zjjllj@gmail.com"
   },
   "source": {
-    "git": "https://github.com/zjjllj@gmail.com/BLLetBase.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ibroadlink/appsdk.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BLLetBase/Classes/**/*"
+  "source_files": "BLLetBase/Classes/**/*.{h,m}",
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "vendored_frameworks": "BLLetBase/Classes/*.{framework}"
 }

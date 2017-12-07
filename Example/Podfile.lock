@@ -1,5 +1,5 @@
 PODS:
-  - BLLetBase (0.1.0)
+  - BLLetBase (0.1.3)
 
 DEPENDENCIES:
   - BLLetBase (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BLLetBase: 7104a82bd5e2ff0368fc3e9e0e7642e8ddc391d2
+  BLLetBase: 81b95746b68dd7c4c89fd827bc9a694d5bf5e673
 
 PODFILE CHECKSUM: 012a432418ca3976c0c65627a8795f7b16a67907
 
